@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "M Plus Light";
+    src: url("../../assets/fonts/MPLUS1p-Light.ttf");
+}
+
+.acomodacoes-container {
+    width: 100%;
+    min-height: 850px;
+    background-color: #006843;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-top: 10px solid #18824F;
+    border-bottom: 10px solid #18824F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url("../../assets/imagens/bg-logo.png");
+    margin-top: 645px;
+}
+
+.acomodacoes-title {
+    text-transform: uppercase;
+    font-family: "M Plus Light";
+    letter-spacing: .8rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(199,178,153);
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flip {
+    margin-top: 2rem;
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1024px) and (min-width: 712px) {
+    .cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+}
+
+/* @media screen and (width: 1024px) {
+    .cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+} */
+
+@media screen and (min-width: 1280px) {
+    .cards-container {
+        flex-direction: row;
+        align-items: stretch;
+    }
+}

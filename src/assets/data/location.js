@@ -1,0 +1,2 @@
+const location = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.179496436644!2d-41.4996971273219!3d-12.596778176794809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7420eda559fdb95%3A0x9d7b1d7c40211628!2sPousada%20Tarumim!5e0!3m2!1spt-BR!2sbr!4v1638143685504!5m2!1spt-BR!2sbr";
+export { location }

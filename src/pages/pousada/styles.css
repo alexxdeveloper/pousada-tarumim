@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "M Plus Light";
+    src: url("../../assets/fonts/MPLUS1p-Light.ttf");
+}
+
+@font-face {
+    font-family: "M Plus Regular";
+    src: url("../../assets/fonts/MPLUS1p-Regular.ttf");
+}
+
+@font-face {
+    font-family: "M Plus Bold";
+    src: url("../../assets/fonts/MPLUS1p-Bold.ttf");
+}
+
+.pousada-container {
+    width: 100%!important;
+    height: 494px;
+    margin-top: 70px;
+    background-image: url("../../assets/imagens/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: calc(100% * 4);
+    background-position-x: center;
+}
+
+.pousada-description {
+    width: 100%;
+    min-height: 850px;
+    background-color: #006843;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-top: 10px solid #18824F;
+    border-bottom: 10px solid #18824F;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url("../../assets/imagens/bg-logo.png");
+}
+
+.pousada-title {
+    text-transform: uppercase;
+    color: rgb(199,178,153);
+    font-family: "M Plus Light";
+    letter-spacing: .8rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.pousada-details {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: justify;
+    width: 85%;
+    font-size: 16px;
+    margin-top: 2rem;
+    font-family: "M Plus Light";
+    letter-spacing: 1px;
+}
+
+.pousada-table {
+    width: 85%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "M Plus Light";
+    font-size: 16px;
+    text-align: center;
+}
+
+.bold {
+    font-family: "M Plus Bold";
+}
+
+.pousada-table span {
+    margin-left: 10px;
+}
+
+.divider {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(251,176,59);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) and (min-width: 712px) {
+    .pousada-table {
+        flex-direction: row;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .pousada-container {
+        background-size: cover;
+        height: 645px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pousada-details {
+        font-size: 21px;
+        width: 70%;
+    }
+
+    .pousada-table {
+        flex-direction: row;
+        width: 65%;
+        font-size: 18px;
+        align-items: flex-start;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .pousada-container {
+        background-size: cover;
+        height: 645px;
+    }
+}

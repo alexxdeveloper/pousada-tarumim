@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "M Plus Regular";
+    src: url("../../assets//fonts/MPLUS1p-Regular.ttf");
+}
+
+@font-face {
+    font-family: "M Plus Bold";
+    src: url("../../assets/fonts/MPLUS1p-Bold.ttf");
+}
+
+.localizacao-container {
+    width: 100%;
+    min-height: 700px;
+    background-color: #A34E4F;
+    border-top: 10px solid #E06B6F;
+    border-bottom: 10px solid #E06B6F;
+    background-image: url("../../assets/imagens/bg-logo.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.localizacao-info {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin: 2rem 0;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.3);
+}
+
+.localizacao-details {}
+
+.localizacao-map {
+
+}
+
+.details-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 70px;
+    background-color: #E8D4B4;
+    padding: 1rem;
+    transition: background-color 1s;
+}
+
+.details-box:hover {
+    background-color: #FFF6ED;
+}
+
+.labels {
+    font-family: "M Plus Regular";
+    font-size: 14px;
+    color: #75553C;
+    margin-left: 1rem;
+}
+
+.labels p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.labels-title {
+    font-family: "M Plus Bold";
+}
+
+.aerea {
+    background-color: #DBC7A8 !important;
+    align-items: flex-start;
+    transition: background-color 1s;
+}
+
+.terrestre {
+    background-color: #D1BC9A;
+    transition: background-color 1s;
+}
+
+.aerea:hover {
+    background-color: #FFF6ED !important;
+}
+.terrestre:hover {
+    background-color: #FFF6ED;
+}
+
+.labels-divider {
+    background-color: #DD7579;
+    height: 5px;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .localizacao-map {
+        height: 485px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .localizacao-info {
+        flex-direction: row;
+    }
+
+    .localizacao-map {
+        width: 1350px;
+    }
+}

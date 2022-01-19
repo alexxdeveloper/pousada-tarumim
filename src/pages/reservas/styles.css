@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "M Plus Light";
+    src: url("../../assets/fonts/MPLUS1p-Light.ttf");
+}
+
+@font-face {
+    font-family: "M Plus Bold";
+    src: url("../../assets/fonts/MPLUS1p-Bold.ttf");
+}
+
+.reservas-container {
+    width: 100%;
+    min-height: 650px;
+    background-image: url("../../assets/imagens/bg-parallax-3.jpg");
+    background-position-x: left;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: optimizeQuality;
+}
+
+.reservas-overlay {
+    width: 100%;
+    min-height: 650px;
+    background-color: rgb(39,22,16, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.reservas-title {
+    font-family: "M Plus Light";
+    color: #FCC920;
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.container-form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    color: #C0A799;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.form-control::placeholder {
+    color: #C0A799 !important;
+}
+
+.form-title-section {
+    color: #C0A799;
+    text-transform: capitalize;
+}
+
+.form-check-label {
+    color: #C0A799;
+}
+
+.reservas-details {
+    color: #E2CAAE;
+    text-align: center;
+    font-family: "M Plus Light";
+    margin-top: 2rem;
+}
+
+.btn-form {
+    border: none;
+    padding: .5rem 2rem;
+    margin: 2.5rem 0;
+    border-radius: 6px;
+    background-color: #534741;
+    color: white;
+    font-family: "M Plus Bold";
+    text-transform: capitalize;
+    transition: background-color 1s;
+    transition: text-transform 1s;
+}
+
+.btn-form:hover {
+    background-color: #006837;
+    text-transform: uppercase;
+}
+
+.form-divider {
+    height: 5px;
+    width: 120px;
+    background-color: #ffb03b;
+}
+
+@media screen and (max-width: 768px) and (min-width: 712px) {
+    .container-form {
+        flex-direction: row;
+    }
+
+    .container-form .form-group {
+        width: 90% !important;
+    }
+
+    .container-form .col:last-child {
+        margin-top: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-form {
+        flex-direction: row;
+    }
+
+    .container-form .form-group {
+        width: 90% !important;
+    }
+
+    .container-form .col:last-child {
+        margin-top: 0 !important;
+    }
+}

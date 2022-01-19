@@ -1,0 +1,150 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.container-parallax1 {
+    background-image: url("./assets/imagens/bg-parallax-1.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.container-parallax2 {
+    background-image: url("./assets/imagens/bg-parallax-2.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "M Plus Light";
+    src: url("./assets/fonts/MPLUS1p-Light.ttf");
+}
+
+@font-face {
+    font-family: "M Plus Bold";
+    src: url("./assets/fonts/MPLUS1p-Bold.ttf");
+}
+
+@font-face {
+    font-family: "m Plus Medium";
+    src: url("./assets/fonts/MPLUS1p-Medium.ttf");
+}
+
+.page-container {
+    width: 100%;
+    height: calc(100% - 70px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #006840;
+    background-image: url("./assets/imagens/bg-logo.png");
+    padding-top: 2rem;
+}
+
+.page-title {
+    font-family: "M Plus Light";
+    margin: 4rem 0;
+    color: #c7b299;
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    text-align: center;
+}
+
+.page-subtitle {
+    font-family: "M Plus Light";
+    text-transform: uppercase;
+    background-color: #dbd8b6;
+    padding: 0.8rem 4rem;
+    letter-spacing: 1rem;
+    color: #348759;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+.subtitle-bold {
+    font-family: "M Plus Bold";
+}
+
+.page-list {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.page-spacer {
+    margin-bottom: 4rem;
+}
+
+.page-list li {
+    color: #fff;
+    font-family: "M Plus Light";
+    text-align: justify;
+    margin-bottom: .6rem;
+}
+
+.page-details {
+    text-transform: capitalize;
+    color: #c7b299;
+    font-family: "M Plus Medium";
+    font-size: 22px;
+    margin: 2rem 0;
+    letter-spacing: .2rem;
+}
+
+.page-divider {
+    width: 80px;
+    border-top: 5px solid #22b573 !important;
+    margin-top: 3rem;
+}
+
+.page-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.page-action-button {
+    background-color: #c7b299;
+    text-decoration: none;
+    padding: .7rem 2rem;
+    margin: 0 .6rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    transition: background-color 1s;
+    transition: color .5s;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.3);
+    color: #5e4c41;
+}
+
+.page-action-button:hover {
+    background-color: #00984f;
+    color: #fff;
+}
+
+@media screen and (max-width: 1020px) and (min-width: 320px) {
+    .page-subtitle {
+        margin: 0 3rem 4rem 3rem;
+        text-align: center;
+    }
+
+    .page-action-button {
+        font-size: 12px;
+    }
+}
