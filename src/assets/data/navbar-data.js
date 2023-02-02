@@ -5,7 +5,7 @@ const navbar1 = [
     { label: "galeria", link: "#galeria" },
     { label: "localização", link: "#localizacao" },
     { label: "reservas e contato", link: "#reservas_contato" },
-    { label: "guias e passeios", link: "#guias_passeios" },
+    // { label: "guias e passeios", link: "#guias_passeios" },
 ];
 
 export {

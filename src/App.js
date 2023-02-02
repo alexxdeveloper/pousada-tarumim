@@ -8,7 +8,7 @@ import Localizacao from './pages/localizacao';
 import QuartoCasal from './pages/quarto-casal';
 import QuartoTriplo from './pages/quarto-triplo';
 import QuartoQuadruplo from './pages/quarto-quadruplo';
-import GuiasEPasseios from './pages/guias-e-passeios';
+// import GuiasEPasseios from './pages/guias-e-passeios';
 
 import './App.css';
 import Footer from './components/footer';
@@ -46,7 +46,7 @@ function App() {
         <Route path="/quarto-casal" element={<QuartoCasal />} />
         <Route path="/quarto-triplo" element={<QuartoTriplo />} />
         <Route path="/quarto-quadruplo" element={<QuartoQuadruplo />} />
-        <Route path="/guias-e-passeios" element={<GuiasEPasseios />} />
+        {/* <Route path="/guias-e-passeios" element={<GuiasEPasseios />} /> */}
       </Routes>
     </>
   );
