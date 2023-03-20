@@ -8,7 +8,7 @@ import Localizacao from './pages/localizacao';
 import QuartoCasal from './pages/quarto-casal';
 import QuartoTriplo from './pages/quarto-triplo';
 import QuartoQuadruplo from './pages/quarto-quadruplo';
-// import GuiasEPasseios from './pages/guias-e-passeios';
+import PoliticaCancelamento from './pages/politica-de-cancelamento';
 
 import './App.css';
 import Footer from './components/footer';
@@ -30,6 +30,7 @@ function LandingPage() {
         </section>
         <section>
           <Localizacao />
+          <PoliticaCancelamento />
           <Footer />
         </section>
       </div>

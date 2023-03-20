@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "M Plus Light";
+    src: url("../../assets/fonts/MPLUS1p-Light.ttf");
+}
+
+.politica-de-cancelamento-header {
+    padding: 2rem;
+}
+
+.politica-de-cancelamento-title {
+    font-family: "M Plus Light";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.politica-de-cancelamento-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(0, 104, 67, 0.8);
+    background-image: url("../../assets/imagens/bg-logo.png");
+    border-top: 0.8rem solid #18824f;
+    border-bottom: 0.8rem solid #18824f;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.politica-de-cancelamento-topicos {
+    list-style: url("../../assets/imagens/marcador.png");
+    margin: 2rem 0;
+}
+
+.politica-de-cancelamento-topicos li {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
