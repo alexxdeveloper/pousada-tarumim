@@ -1,0 +1,4 @@
+Usuário: pousadatar1
+Porta: 21
+Host: ftp.pousadatarumim.com.br
+Senha: @Q63CHiHEF
