@@ -5,7 +5,7 @@ const navbar1 = [
     { label: "galeria", link: "#galeria" },
     { label: "localização", link: "#localizacao" },
     { label: "reservas e contato", link: "#reservas_contato" },
-    { label: "políticas de cancelamento", link: "#politica_cancelamento" },
+    { label: "políticas e cancelamento", link: "#politica_cancelamento" },
 ];
 
 export {
